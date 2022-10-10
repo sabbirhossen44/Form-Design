@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Design</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mainVar">
+        <h1>Survey Form</h1>
+        <form action="form">
+            <div class="name">
+                <label for="Text">Name </label><br>
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="email">
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="Enter Your Email">
+            </div>
+            <div class="age">
+                <label for="numver">Age</label><br>
+                <input type="number" placeholder="Enter Your Age">
+            </div>
+            <div class="optionInput">
+                <label for="text">Which option best describes your current role?</label><br>
+                <select>
+                    <option selected disabled >Selected Your Option</option>
+                    <option>Student</option>
+                    <option>Full Time Job</option> 
+                    <option>Full Time Learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Other</option>
+                    </select>
+            </div>
+            <div class="radioInput">
+                <label>Would you recommend freeCodeCamp to a friend?</label> <br>
+                <input type="radio" value="definitely"> <label>Definitely</label><br>
+                <input type="radio" value="definitely"> <label>May be</label><br>
+                <input type="radio" value="definitely"> <label>Not sure</label><br>
+                
+            </div>
+            <div class="optionInput1">
+                <label>What is your favorite feature of freeCodeCamp?</label><br>
+                <select>
+                    <option selected disabled>Select Your Option</option>
+                    <option>Challenges</option>             <option>Projects</option>
+                    <option>Community</option>             <option>Open Sources</option>
+                </select>
+            </div>
+            <div class="improved">
+                <label for="text">What would you like to see improved? (Check all that apply )</label><br>
+                <input type="radio" value="definitely"> <label for="text">Front-end Project</label><br>
+                <input type="radio" value="definitely"> <label for="text">Back-end Project</label><br>
+                <input type="radio" value="definitely"> <label for="text">Data Visualization</label><br>
+                <input type="radio" value="definitely"> <label for="text">Challenges</label><br>
+                <input type="radio" value="definitely"> <label for="text">Open Sources Community</label><br>
+                <input type="radio" value="definitely"> <label for="text">Gitter Help Room</label><br>
+                <input type="radio" value="definitely"> <label for="text">Videos</label><br>
+                <input type="radio" value="definitely"> <label for="text">City Meet ups</label><br>
+                <input type="radio" value="definitely"> <label for="text">Wiki</label><br>
+                <input type="radio" value="definitely"> <label for="text">Forum</label><br>
+            </div>
+            <div class="comments">
+                <label for="messages">Any Comments or suggestions?</label><br>
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="button">
+                <button>SUBMIT</button>
+            </div>
+        </form>
+        <div style="margin-bottom: 25px;"></div>
+    </div>
+</body>
+</html>
